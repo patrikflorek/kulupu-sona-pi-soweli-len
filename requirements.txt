@@ -1,0 +1,5 @@
+datasets==3.4.1
+openai==1.66.3
+pydantic==2.10.6
+pydantic-ai-slim==0.0.41
+python-dotenv==1.0.1
