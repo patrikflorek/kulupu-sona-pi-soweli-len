@@ -1,0 +1,105 @@
+## Odd numbering leaked from the English text
+
+"output": "1. Eat a balanced and nutritious diet: Make sure your meals are inclusive of a variety of fruits and vegetables, lean protein, whole grains, and healthy fats. This helps to provide your body with the essential nutrients to function at its best and can help prevent chronic diseases.\n\n2. Engage in regular physical activity: Exercise is crucial for maintaining strong bones, muscles, and cardiovascular health. Aim for at least 150 minutes of moderate aerobic exercise or 75 minutes of vigorous exercise each week.\n\n3. Get enough sleep: Getting enough quality sleep is crucial for physical and mental well-being. It helps to regulate mood, improve cognitive function, and supports healthy growth and immune function. Aim for 7-9 hours of sleep each night."
+
+"output_tp": "1. moku pona: moku e kili mute e soweli lili e pan suli e ko pona. ni li pona e sijelo.",
+
+"output_tp_en": "1. Eat well: eat many fruits, small animals, big bread, and good fat. This makes the body good."
+
+
+## The same statement is repeated
+
+"output_tp": "ijo lili nanpa wan li ijo pi ale. ona li jo e ijo lili tu wan: ijo wawa, ijo ala, e ijo lili. nena pi ijo lili nanpa wan li lon insa. ijo lili li lon selo. ijo wawa en ijo ala li lon insa. ijo lili li lon selo. ijo wawa li jo e wawa pona. ijo ala li jo e wawa ala. ijo lili li jo e wawa ike. ijo lili li tawa lon selo. nanpa pi ijo wawa en ijo lili li sama. nanpa pi ijo wawa li toki e nimi pi ijo lili nanpa wan."
+
+
+## Relevant part of the instruction is missing
+
+"instruction": "Write a concise summary of the following:\n\"Commodore 64 (commonly known as the C64 or CBM 64) was manufactured by Commodore Business Machine (CBM) in August 1982 with a starting price of $595. ..."
+"instruction_tp": "o toki lili e ni:"
+
+
+## A company is not a person
+
+"output": "The Commodore 64 was a highly successful 8-bit home computer manufactured by Commodore Business Machine (CBM) in 1982, ..."
+"output_tp": "ilo nanpa C64 li ilo pi tomo jan. ona li pona mute. jan CBM li pali e ona lon tenpo 1982. ..."
+
+
+## Task cannot be completed in Toki Pona
+
+"instruction": "Explain why the following fraction is equivalent to 1/4"
+"input": "4/16"
+"output_tp": "nanpa 4/16 li sama 1/4. tan ni: o weka e sama. weka e 4 tan 4 en 16. 4/4 li 1. 16/4 li 4. nanpa sin li 1/4. ante la, o mute e 1/4 kepeken 4. 1*4 li 4. 4*4 li 16. nanpa sin li 4/16. nanpa tu li sama.",
+
+
+## Confusing translation result
+
+"output_tp_en": "Sophie is at her desk. ... She wants to get a new job. This job is in a different place. But she must leave her friends. A good job is also there. ..."
+
+
+## Translation of question regarding English grammar into Toki Pona
+
+"instruction": "Evaluate this sentence for spelling and grammar mistakes"
+"input": "He finnished his meal and left the resturant"
+"instruction_tp": "o lukin e ni: toki ni li pakala ala pakala?"
+"input_tp": "ona li moku pini li tawa tan tomo moku"
+
+
+## Wrong translation of proper names; wrong translation of numbers; the text is abbreviated too much
+
+"instruction": "How did Julius Caesar die?"
+"instruction_tp": "nasin seme la jan Julius li moli?"
+
+"output": "Julius Caesar, the Roman Military general, and statesman was assassinated on March 15, 44 BC. He was stabbed to death at a meeting of the Senate in the Theatre of Pompey by a group of senators who called themselves the Liberatores. Led by Gaius Cassius Longinus, and Marcus Junius Brutus, they believed that Caesar's dictatorship was subverting the Roman Republic and sought to restore the traditional republican government. The exact number of assailants is not known, but it is believed that a group of as many as 60 conspirators participated in the assassination, and each of them took turns in stabbing Caesar. The day of his death is still known as the Ides of March.",
+"output_tp": "jan Julius li jan lawa pi ma Roma. tenpo pini la, jan mute li moli e ona lon tenpo suno pi nanpa luka luka. jan mute ni li wile awen e lawa pi ma Roma. ona li utala e jan Julius kepeken ilo utala lon tomo suli."
+
+
+## Inconsistent use English and Toki Pona naming; wrong translation (**tomo lawa** means **headquarter** not **capital city**)
+
+"output": "The capital city of France is Paris."
+"output_tp": "tomo lawa pi ma Kanse li tomo Paris."
+
+
+## Incomplete translation
+
+ "output": "Here are ten items a person might need for a camping trip:\n\n1. Tent - to provide shelter and protection from the elements\n2. Sleeping bag - to stay warm and comfortable while sleeping\n3. Portable stove or campfire grill - for cooking meals\n4. Cooler with ice or ice packs - to keep perishable food and drinks cold\n5. Lantern or flashlight - to provide light during the night\n6. First aid kit - for minor injuries or ailments\n7. Map and compass or GPS - for navigation on hikes or exploring the area\n8. Camp chairs or folding chairs - for comfortable seating around the campsite\n9. Insect repellent - to protect against bug bites\n10. Sunscreen - to protect against sunburn."
+ "output_tp": "ni li ijo lili luka luka pi pona tawa jan lon ma kasi:"
+
+
+## Not very much appropriate adoption of examples from English to Toki Pona
+
+"output": "... For example, when using word embeddings, the computer can understand that the words \"dog\" and \"puppy\" are closely related, while the words \"dog\" and \"umbrella\" are not. ..."
+"output_tp": "... nimi \"soweli\" en \"soweli lili\" li sama. nimi \"soweli\" en \"len sewi\" li ante. ..."
+
+
+## Task to refactor code
+
+Modify the task from refactoring to describing what the code does. As a consequence, the original English instruction should be modified accordingly.
+
+
+## Searching for synonyms to words which does not exist in Toki Pona
+
+"instruction": "Generate three verbs that mean the same as \"to apologize\""
+"instruction_tp": "o pana e nimi pali tu wan sama \"toki pakala\""
+
+
+## Rather than to explain what an abbreviation stands for, explain the concept or phenomenon behind the abbreviation
+
+"instruction": "What does DNA stand for?"
+"nimi DNA li seme?"
+
+
+## Misleading translation
+
+"instruction": "Compare and contrast the Cuban Missile Crisis and the Vietnam War."
+"instruction_tp": "toki e sama en ante pi nasin Kuba en nasin Wijen"
+
+
+## Failed to follow the instruction in a translation
+
+"instruction": "Generate a list of random words."
+"output": "Here is a list of ten random words: \n\n1. Quibble\n2. Avarice\n3. Embellish\n4. Resonance\n5. Mercurial\n6. Conflagration\n7. Indefatigable\n8. Mischievous\n9. Delineate\n10. Paragon"
+
+"instruction_tp": "o pali e lipu pi nimi ante."
+"output_tp": "lipu ni li jo e nimi ante luka luka: 1. nimi 2. nimi 3. nimi 4. nimi 5. nimi 6. nimi 7. nimi 8. nimi 9. nimi 10. nimi."
+
+
