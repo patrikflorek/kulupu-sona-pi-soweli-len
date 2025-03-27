@@ -103,3 +103,84 @@ Modify the task from refactoring to describing what the code does. As a conseque
 "output_tp": "lipu ni li jo e nimi ante luka luka: 1. nimi 2. nimi 3. nimi 4. nimi 5. nimi 6. nimi 7. nimi 8. nimi 9. nimi 10. nimi."
 
 
+## A plain sentence is not an istruction, I think
+
+"instruction_tp": "toki e lon en lawa pi jan lawa Charles II"
+
+
+## We should resort to the pure math when translating mathematical tasks - not poluting with Toki Pona numbering way
+
+"instruction": "Find the area of a circle given its radius.",
+"input": "Radius = 4",
+"output": "The formula to find the area of a circle is A = πr^2, where \"A\" is the area of the circle and \"r\" is the radius. Substituting the given value of the radius in the formula:\n\nA = π(4^2)\nA = 16π\n\nThus, the area of the circle with the radius of 4 units is 16π square units.",
+
+"instruction_tp": "o lukin e suli pi sike kepeken nasin pi nanpa suli.",
+"input_tp": "nanpa suli li tu tu.",
+"output_tp": "nasin li ni: A = πr^2. nanpa suli li tu tu. A = π(tu tu)^2. A = luka luka π. suli pi sike li luka luka π.",
+
+## Update English version so that it reflects unique answers in Toki Pona
+
+"instruction": "Generate a list of adjectives that describe a person as brave."
+"output": "1. Courageous\n2. Fearless\n3. Bold\n4. Valiant\n5. Intrepid\n6. Daring\n7. Unflinching\n8. Undaunted\n9. Resolute\n10. Gallant\n11. Plucky\n12. Heroic\n13. Lionhearted\n14. Stouthearted\n15. Audacious."
+
+"instruction_tp": "o pali e lipu pi nimi suli. nimi suli li toki e ni: jan li wawa."
+"output_tp": "1. wawa 2. wawa ala 3. wawa mute 4. wawa suli 5. wawa pi pilin ala 6. wawa pi pali suli 7. wawa pi pilin ala 8. wawa pi pilin ala 9. wawa pi pilin wawa 10. wawa pi jan pona 11. wawa lili 12. wawa pi jan suli 13. wawa pi soweli suli 14. wawa pi pilin wawa 15. wawa pi pali suli"
+
+
+## It should not omit majority options from the translation
+
+"output": "1. Analyze current electricity usage: Begin by collecting data about the current electricity usage in the home, including the average monthly bill, and identify the appliances and devices that consume the most electricity.\n\n2. Replace inefficient appliances: Upgrade or replace outdated and energy-inefficient appliances with ENERGY STAR-certified appliances that consume less electricity while providing the same functionality.\n\n3. Use LED lighting: Replace traditional light bulbs with energy-efficient LED bulbs, which use up to 75% less energy and last up to 25 times longer.\n\n4. Unplug devices when not in use: Many electronic devices such as chargers, TVs, and computers consume power even when they are turned off. Unplug devices when they’re not in use to reduce electricity consumption.\n\n5. Use smart power strips: Consider using smart power strips, which automatically cut power to devices that are not in use, thereby reducing standby power consumption.\n\n6. Adjust the thermostat: Heating and cooling can account for up to half of a home’s total energy consumption. Adjust the thermostat and use programmable or smart thermostats to reduce heating or cooling usage when no one is at home, or at night.\n\n7. Install weather stripping: Install weather stripping around doors and windows to prevent air leaks, thus reducing the load on heating and cooling systems.\n\n8. Use natural lighting: Take advantage of natural daylight whenever possible by opening blinds and curtains during the day and avoiding the use of artificial lighting.\n\n9. Encourage energy-saving behaviors: Educate household members about energy-saving habits, such as turning off lights when leaving a room, taking shorter showers, and running the dishwasher and washing machine only when they are full.\n\n10. Monitor electricity usage regularly: Keep track of electricity usage on a regular basis, and make necessary adjustments to the energy-saving plan based on the results.",
+"output_tp": "1. o lukin e wawa pi ilo tomo. o kama jo e sona pi wawa suli. o lukin e ilo suli.",
+
+
+## Use toki pona sentence in the original English text
+
+"instruction": "Arrange the words in the given sentence to form a grammatically correct sentence.",
+"input": "quickly the brown fox jumped",
+"output": "The brown fox jumped quickly.",
+"instruction_tp": "o pali e toki pona kepeken nimi pi toki ni.",
+"input_tp": "soweli pimeja li tawa wawa.",
+"output_tp": "soweli pimeja li tawa wawa."
+
+
+## Distorted meaning of the output in Toki Pona
+
+"instruction": "Analyze the given text for its tone.",
+"input": "The world has been greatly impacted by the COVID-19 pandemic and it has drastically changed our lives.",
+"output": "The tone of the text is serious and somber. The use of terms such as \"greatly impacted,\" \"drastically changed,\" and \"pandemic\" suggest the seriousness and gravity of the situation, and convey a sense of heaviness and concern.",
+"instruction_tp": "o lukin e toki. ni li pona ala pona?",
+"input_tp": "ma ale li pakala tan sijelo ike COVID. ona li ante e ale.",
+"output_tp": "toki ni li ike. nimi \"pakala\" en \"ante\" li toki e ike.",
+
+
+## Input is crammed in the instruction; the most important part - the question, did not get to the translation
+
+"instruction": "Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.\n\nFounded in the 13th century, Berlin has had an eventful history. Excavations from 2008 suggest that the city may be even older than was previously assumed: state archaeologists have discovered an oak beam that probably dates back to 1183.\n\nAlmost no other metropolis has experienced such frequent, radical change transforming the face of the city. Although Berlin saw steady growth in its importance, dazzling epochs alternated with darker eras. Nevertheless, the formerly divided city has succeeded in becoming a vibrant metropolis in the heart of Europe.\n\nQuestion: What is the best restaurant in Berlin?",
+"input": "",
+"output": "I'm sorry, I cannot answer that question as the context given does not provide information about the best restaurant in Berlin.",
+"instruction_tp": "o kepeken e lipu ni tawa pana e sona tawa pilin pini. sina sona ala la, o toki e ni: sina sona ala. o pali ala e sona sin.",
+"input_tp": "",
+"output_tp": "mi pilin ike. mi ken ala pana e sona ni tan ni: lipu li pana ala e sona pi moku pona pi ma Berlin.",
+
+
+## Translation is broken when calculating - resort to pure math or avoid the math completely
+
+"instruction": "Find the real root of the equation \n sqrt(x) + sqrt(x+2) = 10.\n",
+"input": "",
+"output": "Subtracting sqrt(x) from both sides and then squaring, we get \n x+2 = (10-sqrt(x))^2 = x - 20sqrt(x) + 100.\nTherefore, 20sqrt(x) = 98, so sqrt(x) = 98/20 = 49/10. Therefore, x = (49/10)^2 = 2401/100, or x = 24.01.",
+"instruction_tp": "o alasa e nanpa lon. nanpa ni li sama ala: noka x en noka x+2 li sama luka luka.",
+"input_tp": "",
+"output_tp": "o weka e noka x. o noka e nanpa. x+2 li sama x weka luka luka noka x en luka luka luka. noka x li sama luka luka luka tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu ...
+
+
+## Making up new Toki Pona words; the English instruction reference synonym which does not hold in Toki Pona
+
+"instruction": "Explain why the given definition is wrong.",
+"input": "A mole is an animal that lives underground.",
+"output": "While it is true that a mole is an animal that lives underground, this definition is incomplete and could be misunderstood because it does not adequately describe the mole's characteristics or biological classification. Moles belong to the family of mammals called Talpidae, and they are small, burrowing, and insectivorous. They are known for their cylindrical bodies, short limbs, and small eyes and ears. The definition also does not differentiate the animal from the chemical term mole, which refers to a unit of measurement used in chemistry. For these reasons, the given definition of a mole is not entirely accurate or clearly descriptive.",
+"instruction_tp": "toki e tan pi ike pi sona ni",
+"input_tp": "soweli molo li soweli pi anpa ma",
+"output_tp": "soweli molo li soweli pi anpa ma. taso, sona ni li lili. soweli molo li lili. ona li moku e pipi. ona li jo e sijelo suli. ona li jo e lupa lili lukin e kute lili. nimi molo li sama ala e molo pi sona nasin. tan ni, sona ni li ike.",
+
+
+## 
